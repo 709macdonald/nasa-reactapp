@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
 
 function App() {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
