@@ -42,7 +42,6 @@ footer {
   left: 0;
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem;
@@ -69,6 +68,7 @@ footer button {
   color: white;
   padding: 1rem;
   transition-duration: 200ms;
+  cursor: pointer;
 }
 
 footer button i {
@@ -76,7 +76,7 @@ footer button i {
 }
 
 footer button:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .bgGradient {
@@ -125,6 +125,13 @@ footer button:hover {
   border: none;
   outline: none;
   margin-right: auto;
+  cursor: pointer;
+  transition-duration: 200ms;
+  padding: 1rem;
+}
+
+.sidebarContents button:hover {
+  opacity: 0.7;
 }
 
 @media (min-width: 640px) {
