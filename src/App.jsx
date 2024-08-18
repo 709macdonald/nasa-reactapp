@@ -1,5 +1,15 @@
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+import SideBar from "./components/SideBar";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <SideBar>asdasd</SideBar>
+      <Main />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
